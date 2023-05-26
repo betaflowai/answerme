@@ -1,0 +1,39 @@
+##########################
+#   LLM-Flow     #
+##########################
+
+# In-Progress
+---
+
+- getting started with models
+https://python.langchain.com/en/latest/modules/models/getting_started.html
+===
+# Backlog
+- Load open source models not openAI
+- customer service data
+https://opendata.stackexchange.com/questions/20326/dataset-that-contains-customer-support-interaction
+https://github.com/bitext/customer-support-intent-detection-training-dataset
+https://kili-technology.com/data-labeling/machine-learning/24-best-machine-learning-datasets-for-chatbot-training
+
+- https://huggingface.co/tasks/question-answering
+- https://huggingface.co/tasks/conversational
+- https://python.langchain.com/en/latest/modules/indexes/getting_started.html
+- Test longchain with other open-source model providers
+- Use-case over English Customer-Sercice data
+https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter?resource=download
+- Use-case over a German customer-service data
+- scrapping twitter via python
+https://pypi.org/project/twitter-scraper/
+- translate documents
+https://pypi.org/project/googletrans/
+https://github.com/DeepLcom/deepl-python
+https://github.com/argosopentech/argos-translate
+
+---
+===
+# Done
+- quick quide
+---
+# Notes
+---
+===

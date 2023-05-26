@@ -1,0 +1,20 @@
+model:
+  provider: "openai"
+  name: "openai.curie"
+prediction: "chain" # llm means model only , chain means llm + docs
+
+## Fixed part ##
+model_map: # name, id
+  'google.flan': 'google/flan-t5-xl'
+  'stability-ai.stablelm': 'stabilityai/stablelm-tuned-alpha-3b'
+  'databricks.dolly': 'dolly-v2-3b'
+  'writer.camel': 'camel-5b-hf'
+  # open-ai models
+  'openai.ada': 'text-ada-001' # simple but fast
+  'openai.davinci': 'text-davinci-003' # good but slow
+  'openai.curie': 'text-curie-001'
+
+# model-names for openai
+# https://platform.openai.com/docs/models/gpt-3
+
+
