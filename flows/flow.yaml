@@ -1,7 +1,12 @@
+# Business Params
+task: "faq"
+domain: "ecommerce"
+language: "en"
+# Modeling Params
 model:
   provider: "openai"
   name: "openai.curie"
-prediction: "chain" # llm means model only , chain means llm + docs
+
 
 ## Fixed part ##
 model_map: # name, id

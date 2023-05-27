@@ -28,7 +28,7 @@ https://pypi.org/project/twitter-scraper/
 https://pypi.org/project/googletrans/
 https://github.com/DeepLcom/deepl-python
 https://github.com/argosopentech/argos-translate
-
+[Reading] Chaining in LLMs https://arxiv.org/pdf/2110.01691.pdf
 ---
 ===
 # Done
