@@ -5,11 +5,13 @@ language: "en"
 # Modeling Params
 model:
   provider: "openai"
-  name: "openai.curie"
+  name: "openai.davinci"
 
 
 ## Fixed part ##
 model_map: # name, id
+  # TODO, make model naming more with a convention : provider.name
+  # hugging face models
   'google.flan': 'google/flan-t5-xl'
   'stability-ai.stablelm': 'stabilityai/stablelm-tuned-alpha-3b'
   'databricks.dolly': 'dolly-v2-3b'
@@ -18,6 +20,8 @@ model_map: # name, id
   'openai.ada': 'text-ada-001' # simple but fast
   'openai.davinci': 'text-davinci-003' # good but slow
   'openai.curie': 'text-curie-001'
+
+
 
 # model-names for openai
 # https://platform.openai.com/docs/models/gpt-3

@@ -5,6 +5,7 @@ https://python.langchain.com/en/latest/modules/chains/index_examples/question_an
 """
 import argparse
 import logging
+import sys
 from typing import List
 import yaml
 from langchain import HuggingFaceHub
@@ -37,7 +38,7 @@ def get_hugging_face_llm_interface(config: dict, llm_name_id_map):
     repo_id = llm_name_id_map.get(model_name, None)
     if not repo_id:
         raise ValueError(f"Invalid model name {model_name}")
-    llm = HuggingFaceHub(repo_id=repo_id, model_kwargs={"temperature": 0, "max_length": 64})
+    llm = HuggingFaceHub(repo_id=repo_id, model_kwargs={"temperature": 0.7, "max_length": 64})
     return llm
 
 
@@ -132,3 +133,16 @@ if __name__ == '__main__':
     answers = run_master_pipeline(config=config, context_doc=context_doc, questions=questions)
     write_qa(out_file_path=args.qa_file, header="", questions=questions, answers=answers)
     logger.info(f'Finished writing resulted QA to {args.qa_file}')
+    # FIXME , why stuck at the end, must end manually
+    """
+    Traceback (most recent call last):
+      File "/home/mbaddar/mbaddar/llm_project/llm-flow/venv310/lib/python3.10/site-packages/posthog/client.py", line 400, in join
+        consumer.join()
+      File "/usr/lib/python3.10/threading.py", line 1096, in join
+        self._wait_for_tstate_lock()
+      File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+        if lock.acquire(block, timeout):
+    KeyboardInterrupt: 
+    
+    Process finished with exit code 0
+    """
