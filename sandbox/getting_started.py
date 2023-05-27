@@ -1,6 +1,8 @@
 # https://python.langchain.com/en/latest/modules/models/getting_started.html
 from langchain.llms import OpenAI
 from langchain import HuggingFaceHub
+from langchain.llms import AlephAlpha
+from langchain.llms import AI21
 
 if __name__ == '__main__':
     # openai models
@@ -18,16 +20,20 @@ if __name__ == '__main__':
     #   managed to make it work with a hack (changed model to xxl version, temp=0.7
     #       and chunk_size limited)
     #   https://github.com/hwchase17/langchain/issues/3275#issuecomment-1544790326
-    #   But, need to find the root cause https://github.com/hwchase17/langchain/issues/3275#issuecomment-1537432279
+    #   But, need to find the root cause
+    #   https://github.com/hwchase17/langchain/issues/3275#issuecomment-1537432279
     #
     # test HuggingFace different models
     # repo_id = "google/flan-t5-xxl"
-    repo_id = "stabilityai/stablelm-tuned-alpha-3b" # TODO, model got stuck !
+    # repo_id = "stabilityai/stablelm-tuned-alpha-3b" # TODO, model got stuck !
+    # repo_id = "databricks/dolly-v2-3b"
+    # llm = HuggingFaceHub(repo_id=repo_id, model_kwargs={"temperature": 0.7, "max_length": 64})
+    # llm = AI21()
 
-    llm = HuggingFaceHub(repo_id=repo_id, model_kwargs={"temperature": 0.7, "max_length": 64})
+    llm = AlephAlpha(model="luminous-extended", maximum_tokens=20, stop_sequences=["Q:"])
     print(f'llm-model = \n {llm}')
     n_repeat = 5
-    question = 'Who are you ?'
+    question = 'How can I be Happy ?'
     print(f'making {n_repeat} calls for llm.predict to answer the question : {question}')
     for i in range(n_repeat):
         answer = llm.predict(question)
