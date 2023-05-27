@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # https://python.langchain.com/en/latest/modules/models/llms/getting_started.html
     print('Exercise # 1 : testing llm prediction : diff models and temperatures ')
 
-    # llm = OpenAI(model_name=model_name, temperature=temperature)
+    llm = OpenAI(model_name=model_name, temperature=temperature)
     #
     # TODO Investigate why HuggingFace hub models gets stuck ( timeout, never got a response)
     #   https://github.com/hwchase17/langchain/issues/3275
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     # llm = HuggingFaceHub(repo_id=repo_id, model_kwargs={"temperature": 0.7, "max_length": 64})
     # llm = AI21()
 
-    llm = AlephAlpha(model="luminous-extended", maximum_tokens=20, stop_sequences=["Q:"])
+    # llm = AlephAlpha(model="luminous-extended", maximum_tokens=20, stop_sequences=["Q:"])
     print(f'llm-model = \n {llm}')
     n_repeat = 5
     question = 'How can I be Happy ?'
