@@ -1,10 +1,14 @@
 # Business Params
 task: "faq"
 domain: "ecommerce"
-language: "en"
+language: "en" # de
+cost: "high"
 # Modeling Params
+
 model:
   provider: "openai"
+
+############################################################
   name: "openai.davinci"
 
 
