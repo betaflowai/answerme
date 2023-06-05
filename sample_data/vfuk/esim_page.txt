@@ -1,0 +1,188 @@
+# https://www.vodafone.co.uk/help-and-information/esim#esimsetup
+What’s an eSIM?
+An eSIM is a tiny chip that’s already installed in a device. Vodafone Pay monthly customers can enjoy the flexibility of an eSIM instead of a physical SIM on a number of compatible devices.
+
+This means that:
+
+You can change providers without needing to order a physical SIM
+
+Dual SIM phones can support the use of two numbers with both a physical SIM and an eSIM
+=========
+What's an eSIM?
+An eSIM is a digital SIM that's already installed in a device, such as a smartphone, tablet, or laptop. It's quick to set up, easy to use, and entirely digital so it's great for the planet.
+
+Vodafone Pay monthly customers can get an eSIM instead of a physical SIM card with compatible devices. The flexibility of an eSIM means you can:
+
+Switch providers easily
+Change providers without needing to order a new SIM card.
+
+Use dual SIM phones
+Use two numbers with both a SIM card and an eSIM.
+==========
+Pay monthly customers can switch their current number to an eSIM for free.
+Before you start, make sure you are connected to WiFi and have a My Vodafone account.
+
+How to swap to eSIM
+
+Check the Is your device compatible with eSIM? section below to find out if your phone model is compatible.
+Swap to an eSIM by logging into My Vodafone.
+Finish activating your SIM within your phone settings.
+==================
+Pay as you go
+Sorry, eSIMs are only available for Pay monthly customers.
+Find out how to switch to Pay monthly
+
+If you’d like to add a new line, shop our SIM only plans or buy a phone
+=================
+eSIM for Business Customers
+New eSIM technology—embedded in smartphones and tablets—is now available to Vodafone Business Customers. Most flagship devices are now dual SIM, having both an eSIM and a physical SIM, with increasingly more devices adopting it due to its convenience.
+================
+This a list of device compatible with eSim
+Apple
+Phone
+iPhone 13 Pro Max (dual eSIM)
+iPhone 13 Pro (dual eSIM)
+iPhone 13 (dual eSIM)
+iPhone 13 mini (dual eSIM)
+iPhone 12 Pro Max
+iPhone 12 Pro
+iPhone 12
+iPhone 12 mini
+iPhone SE 2020
+iPhone 11 Pro Max
+iPhone 11 Pro
+iPhone 11
+iPhone XR
+iPhone XS Max
+iPhone XS
+
+iPad
+iPad Pro 12.9 inch (5th generation)
+iPad Pro 12.9 inch (4th generation)
+iPad Pro 12.9 inch (3rd generation)
+iPad Pro 11 inch (3rd generation)
+iPad Pro 11 inch (2nd generation)
+iPad Pro 11 inch (1st generation)
+iPad 10.2 inch (7th generation)
+iPad Air (4th generation)
+iPad Air (3rd generation) (2019)
+iPad mini (5th generation) (2019)
+iPad (8th generation)
+iPad (7th generation)
+================
+Android
+Samsung
+Galaxy S21 Ultra
+Galaxy S21+
+Galaxy S21
+Galaxy Note20
+Galaxy S20 Ultra
+Galaxy S20+
+Galaxy S20
+Galaxy Z Flip
+
+Google
+Pixel 5
+Pixel 4a
+Pixel 4
+Pixel 3a XL
+Pixel 3a
+Pixel 3 XL
+Pixel 3
+=================
+Huawei
+P40 Pro
+
+OPPO
+Find X3 Pro
+ ===============
+ How to set up dual SIM with an eSIM
+Check the Is your device compatible with eSIM? section below to find out if your phone model is compatible.
+You’ll need both a physical SIM and an eSIM in your phone. If you have two physical SIMs, swap one of your existing SIMs to an eSIM by logging into My Vodafone.
+Finish activating your SIM within your phone’s settings.
+============
+How do I activate and set up a device with eSIM?
+Share this answer
+How do I activate and set up a device with eSIM?
+eSIMs are only available if you’re on a Pay monthly contract and have a compatible device. We don’t support eSIM Quick Transfer on iPhone at the moment.
+
+Set up an eSIM on your phone
+
+Secondary devices
+You can activate an eSim for an Apple Watch or other eSIM device using the My Vodafone app, or by logging into My Vodafone
+
+I'm using the My Vodafone app
+I logged into My Vodafone
+Select Settings
+Choose View on the plan you want to edit
+Under Manage SIM and switching, choose Activate my SIM
+Follow the instructions for eSIM swap
+You’ll be issued a QR code you can scan to get started
+Do you have a dual SIM device?
+Find out how to set up a dual SIM using eSIM
+===================
+What happens if I delete my eSIM?
+Share this answer
+What happens if I delete my eSIM?
+Don’t worry if you’ve accidentally deleted your eSIM – we’ll email you a new QR code. You can use it to reactivate your eSIM if you need it or simply redownload it to your device:
+
+Go to Settings > mobile data > add data plan
+The deleted eSIM profile will be available to redownload
+If you’ve accidentally deleted your eSIM from an Apple Watch – log in to My Vodafone and carry out an eSIM swap.
+
+Select Settings
+Choose View on the plan you want to edit
+Under Manage SIM and switching, choose Activate my SIM
+Follow the instructions for eSIM swap
+If you no longer need your eSIM or wish to cancel your Vodafone OneNumber, let us know by calling 191.
+===============================
+Can I use eSIM when travelling abroad or visiting the UK?
+Share this answer
+Can I use eSIM when travelling abroad or visiting the UK?
+Yes, your eSIM will work exactly the same as a physical SIM. You can find more information about using your phone abroad by visiting our roaming page
+
+
+
+26
+found this useful
+==============================
+How do I set up a Dual SIM phone?
+Share this answer
+How do I set up a Dual SIM phone?
+Dual SIM phones let you use two SIMs, and therefore have two phone lines. This is ideal if you want to set up your work SIM and personal SIM in the same device, so you don’t have to carry two phones.
+
+Most Dual SIM phones available in 2021 have one physical SIM slot and work with an eSIM (a digital SIM). So, you’ll need one of each to get set up.
+
+Find out more about eSIM
+
+Before you set up Dual SIM, check which type of SIM your phone takes. To do this, go to Device Guides, choose your device, then Specifications. Scroll down to SIM.
+
+Tip: You can have more than one eSIM saved on your phone, but only one can be active at a time.
+
+To set up Dual SIM, you’ll need:
+
+A Dual SIM phone that works with an eSIM
+Both a physical SIM and an eSIM. Buy a second SIM if you need one.
+An activated SIM card and eSIM (activation instructions come with each).
+Now head to our device guides to activate your eSIM and set up Dual SIM
+
+You can change your Dual SIM settings at any time.
+======================
+I don’t have a SIM card, can I still move to eSIM?
+Share this answer
+I don’t have a SIM card, can I still move to eSIM?
+You must have a SIM card so that you can receive texts. This is because you need to log in to My Vodafone to move to eSIM, and we send the security code by text.
+
+If you don’t have a SIM card, chat to us to get a new one. Then you can use it to receive your security code and move over to eSIM.
+
+
+
+61
+found this useful
+
+Chat to us online
+==============
+I don’t have a SIM card, can I still move to eSIM?
+You must have a SIM card so that you can receive texts. This is because you need to log in to My Vodafone to move to eSIM, and we send the security code by text.
+
+If you don’t have a SIM card, chat to us to get a new one. Then you can use it to receive your security code and move over to eSIM.
