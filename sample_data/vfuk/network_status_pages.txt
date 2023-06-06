@@ -1,0 +1,148 @@
+===
+My mobile device has no signal. What should I do?
+Share this answer
+My mobile device has no signal. What should I do?
+What problem are you having?
+
+Bad signal or reception
+It might be something our end❗️
+First, check whether there's an incident or any maintenance happening on our network.
+This might be what’s weakening your signal.
+Check network near me
+====
+My mobile can't connect to the internet
+Share this answer
+My mobile data is...
+
+Slow
+It might be something our end.
+
+First, check whether there's an incident or any maintenance happening on our network
+
+Check network near me
+
+Not our network?
+
+It might be your mobile plan. Our Unlimited and Unlimited Lite mobile plans come with different maximum data speeds. Check which plan you've got in My Vodafone - tap Plan Details on your dashboard.
+
+Unlimited Lite
+Maximum data speed – 2Mbps
+You should be able to: browse the internet, message and email, check social media, stream music.
+
+Unlimited
+Maximum data speed – 10Mbps
+You should be able to do everything you can do on Unlimited Lite, plus: send and receive images, audio and video files, download and update apps, stream HD TV shows and films, play single player online games.
+Still need help? Please chat to one of our team.
+=============
+Not working at all
+It might be something our end.
+
+First, check whether there's an incident or any maintenance happening on our network
+
+Check network near me
+
+Not our network?
+
+Check your data is turned on
+If your data is turned off, you won’t be able to use your mobile connection to get online.
+
+Find out how to turn your data on or off
+
+
+Check you’ve got enough data
+If you’ve used up your data, you might have problems getting online.
+
+Check how much data you’ve got left
+==========
+What should I do if I can’t make or receive calls or texts?
+Share this answer
+What should I do if I can’t make or receive calls or texts?
+First, you should try to:
+
+● Turn your phone off and on again
+● Test out different phone numbers – in case you’re trying to call or text an invalid number
+
+If neither of those work, here are some of the most common issues.
+
+Check your payment details or credit amount
+If you’re on a Pay monthly plan, check that your payments details are correct and all your payments have been made. If you’ve missed one or more payments, we might have restricted your service
+
+Find out how to pay your bill
+
+If you’re on one of our £10+ Pay as you go bundles or our Pay as you go 1 plan, you’ll have unlimited calls and texts. However, if you’re on one of our older plans, you may have run out of credit or used all your allowances. If so, please either visit our Top up page or our Extras page
+
+Check you’ve got signal
+Make sure you don't have airplane or flight mode switched on – check your device settings.
+
+There could be coverage issues due to a network fault in your area. Check for any faults using our network status checker
+
+If there are currently any faults or ongoing maintenance in your area, you might be able to use WiFi Calling
+
+Turn off roaming bars
+If you’re abroad, you could have an active roaming bar on your account. If you have access to local WiFi, you can check and remove bars
+
+Unlock your phone
+If you bought it from another provider, you might need to get your phone unlocked
+
+Uninstall calling and text apps
+If you’ve installed a third-party calling or text app like TrueCaller or Textra SMS, try disabling or uninstalling it.
+==========================
+My internet is slow
+Share this answer
+My internet is slow
+Please choose which connection is slow:
+
+Mobile data – including dongles and mobile WiFi
+The speed and strength of your mobile data signal can change depending where you are. For example, if you’re in a busy public space, you’ll probably have a slower connection than when you’re at home.
+
+If your data connection is often slow, you can:
+
+Check the coverage in the area and get up-to-date information on anything that might be affecting your service
+See our device guides to find out how to choose the right network and also how to restart your phone
+Remember, some of our plans have a maximum download speed:
+
+Unlimited Lite – 2Mbps
+Unlimited – 10Mbps
+If you’re still having trouble with slow data, chat to us online.
+===============
+If your Broadband internet seems slower than usual, check out our slow broadband support guide
+https://www.vodafone.co.uk/help-and-information/broadband-support/slow-broadband-2
+==========================
+How do I set up WiFi Calling?
+Share this answer
+How do I set up WiFi Calling?
+Follow our device guide to set up WiFi Calling https://deviceguides.vodafone.co.uk/?topic=turn-wi-fi-calling-on-or-off
+================
+Can I get mobile network status alerts?
+Share this answer
+Can I get mobile network status alerts?
+You can set up status alerts to hear about unexpected issues and planned maintenance on our mobile network. We’ll keep you updated on how we're progressing as we address the issue and notify you once the problem's been fixed.
+
+You can manage alerts based on locations you care about or frequently visit, such as your home or work.
+
+There are occasions where we won’t communicate, such as our regular maintenance window during late hours or issues affecting service for a short period of time. Don't worry, we only send updates between the hours of 08:00 and 22:00.
+
+To sign up for alerts:
+
+Visit our Network Status Checker
+
+Select My alerts, just below Enter location
+
+Subscribe to alerts will be automatically selected. If not, just tap on it to open the tab
+
+Follow the steps to subscribe
+
+To manage my alerts:
+
+Visit our Network Status Checker
+
+Select My alerts, just below Enter location
+
+Tap on Manage alerts
+
+Enter your details to view your subscriptions
+
+You can now manage existing locations, or add additional locations (up to a maximum of 3)
+
+For business customers with in-building coverage solutions, these locations are not currently supported.
+==============================

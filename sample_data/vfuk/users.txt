@@ -1,2 +1,0 @@
-{"customer-id":"123","email":"mbaddar2@gmail.com","name":Mohamed,"plan":"Monthly-Plan","Phone":{"Brand":"Apple","Model":"Apple 12"}}
-{"customer-id":"xyz","email":"mmansour@gmail.com","first-name":Mohamed,"plan":"Monthly-Plan","Phone":{"Brand":"Apple","Model":"Apple 10"}}
