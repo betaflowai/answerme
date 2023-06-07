@@ -6,6 +6,8 @@ import argparse
 import logging
 import os
 import zipfile
+
+import PyPDF2
 from termcolor import colored
 from colorama import init as colorama_init
 from colorama import Fore
@@ -17,6 +19,17 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 
 
+def convert_pdf_to_text(pdf_file_obj):
+    pdfreader = PyPDF2.PdfReader(pdf_file_obj)
+    n = len(pdfreader.pages)
+    all_text = ""
+    for i in range(n):
+        page = pdfreader.pages[i]
+        all_text += f"## Page {i + 1} ##\n\n===\n\n"
+        all_text += page.extract_text()
+        all_text += "\n\n====\n\n"
+    return all_text
+
 def get_context_text(zip_file_path):
     logger = logging.getLogger()
     context_text = ""
@@ -27,6 +40,10 @@ def get_context_text(zip_file_path):
                 text = zip_file.read(file_name).decode()
                 context_text += text
                 context_text += "\n---\n"
+            elif file_name.endswith('.pdf'):
+                logger.info(f'Appending text from {os.path.join(zip_file_path, file_name)} to context string')
+                # TODO
+                #   https://stackoverflow.com/questions/62055857/reading-a-pdf-from-a-zipfile
             else:
                 logger.warning(f'file {file_name} is not a text file, and I am not processing it')
     return context_text
