@@ -1,3 +1,1 @@
-[submodule "langchain"]
-	path = langchain
-	url = git@github.com:mbaddar1/langchain.git
+
