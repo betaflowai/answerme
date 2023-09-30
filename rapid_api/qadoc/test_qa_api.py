@@ -2,26 +2,31 @@ import argparse
 import sys
 import time
 from datetime import datetime
+from colorama import init as colorama_init
+from colorama import Fore
+from colorama import Style
 import logging
 import ntpath
-
 import requests
 
 
 def get_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input-file-path', type=str, required=True, help='pdf file')
-    parser.add_argument('--question', type=str, required=True, help='question')
+    # parser.add_argument('--question', type=str, required=True, help='question')
     parser.add_argument('--x-rapidapi-key', type=str, required=True, help='rapid-api app key')
     parser.add_argument('--x-rapidapi-host', type=str, required=True, help='rapid-api host')
-    parser.add_argument('--rapidapi-base-url', type=str, required=True, help='rapidapi base url')
+    # parser.add_argument('--rapidapi-base-url', type=str, required=True, help='rapidapi base url')
     parser.add_argument('--sleep-time', type=int, required=True, help='time to sleep')
     return parser
 
 
+# Get logger
+logging.basicConfig(level=logging.ERROR)
+logger = logging.getLogger()
+
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
-    logger = logging.getLogger()
+
     args = get_parser().parse_args()
     logger.info(f'Args = {args}')
 
@@ -31,16 +36,16 @@ if __name__ == '__main__':
     }
 
     # 1) Get pre-signed url
-    pre_signed_url_endpoint = args.rapidapi_base_url + "/psurl"
+    pre_signed_url_endpoint = f"https://{args.x_rapidapi_host}" + "/psurl"
     file_basename = ntpath.basename(args.input_file_path)
     file_basename_without_ext = file_basename.split(".")[0]
     file_basename_ext = file_basename.split(".")[1]
 
     file_bin = open(args.input_file_path, 'rb').read()
-    time_stamp = datetime.now().isoformat()
-    file_new_basename = f"{file_basename_without_ext}_{time_stamp}.{file_basename_ext}"
+    # time_stamp = datetime.now().isoformat()
+    # file_new_basename = file_basenamef"{file_basename_without_ext}_{time_stamp}.{file_basename_ext}"
     pre_signed_url_response = requests.get(url=pre_signed_url_endpoint, headers=headers,
-                                           params={'filename': file_new_basename})
+                                           params={'filename': file_basename})
     logger.info(f'Sent pre-signed-request : {pre_signed_url_response.url}')
     logger.info(f'Return status code = {pre_signed_url_response.status_code}')
     if pre_signed_url_response.ok:
@@ -62,12 +67,25 @@ if __name__ == '__main__':
     # 3) Wait for indexing
     logger.info(f'Sleeping for {args.sleep_time} to wait for the document to be indexed')
     time.sleep(args.sleep_time)
+    logger.info(f'Finished waiting for document indexing!')
     # 4) Ask questions
-    params = {'question': args.question, 'filename': file_new_basename}
-    qa_endpoint = args.rapidapi_base_url + "/answerme"
-    qa_response = requests.get(url=qa_endpoint, headers=headers, params=params)
-    if qa_response.ok:
-        logger.info(f'QA request was successful')
-        logger.info(f'QA response = \n{qa_response.json()}')
-    else:
-        logger.info(f'QA request failed with status code = {qa_response.status_code} and text {qa_response.text}')
+    finished = False
+    logger.info("===")
+    while not finished:
+        # logger.info('Input your question:\n\n')
+        print(f"{Fore.BLUE}Input your question:\n\n{Style.RESET_ALL}")
+        question = input()
+        if question.lower().strip() != "exit":
+            params = {'question': question, 'filename': file_basename}
+            logger.info(f'Sending question with params = {params}')
+            qa_endpoint = f"https://{args.x_rapidapi_host}" + "/answerme"
+            qa_response = requests.get(url=qa_endpoint, headers=headers, params=params)
+            if qa_response.ok:
+                logger.info(f'QA request was successful')
+                print(f"{Fore.GREEN}Answer:\n\n{qa_response.json()}{Style.RESET_ALL}")
+            else:
+                logger.info(
+                    f'QA request failed with status code = {qa_response.status_code} and text {qa_response.text}')
+        else:
+            logger.info('Exiting!')
+            finished = True
