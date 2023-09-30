@@ -72,17 +72,20 @@ if __name__ == '__main__':
     finished = False
     logger.info("===")
     while not finished:
+        print('\n\n\n\n')
         # logger.info('Input your question:\n\n')
-        print(f"{Fore.BLUE}Input your question:\n\n{Style.RESET_ALL}")
+        print(f"{Fore.BLUE}Input your question:\n{Style.RESET_ALL}")
         question = input()
         if question.lower().strip() != "exit":
             params = {'question': question, 'filename': file_basename}
             logger.info(f'Sending question with params = {params}')
             qa_endpoint = f"https://{args.x_rapidapi_host}" + "/answerme"
+            print(f"{Fore.MAGENTA}Generating Answer ... {Style.RESET_ALL}")
             qa_response = requests.get(url=qa_endpoint, headers=headers, params=params)
             if qa_response.ok:
                 logger.info(f'QA request was successful')
-                print(f"{Fore.GREEN}Answer:\n\n{qa_response.json()}{Style.RESET_ALL}")
+                print(f"Answer:\n{Fore.CYAN}{qa_response.json()}{Style.RESET_ALL}")
+                print("\n\n\n\n")
             else:
                 logger.info(
                     f'QA request failed with status code = {qa_response.status_code} and text {qa_response.text}')
